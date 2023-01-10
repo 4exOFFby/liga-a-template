@@ -1,0 +1,14 @@
+block aboutAs
+- const conditional = true
+  section.about-as
+    .container
+      h1.about-as__title О нас
+      p.about-as__description
+        | Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        | Beatae, tenetur, necessitatibus maiores voluptate minima esse pariatur perferendis
+        | iste omnis incidunt culpa quisquam tempora dolore. Nisi delectus mollitia accusantium quidem fugiat.
+      if(conditional)
+        a.about-as__button.btn Пробная кнопка
+      else
+        span.about-as__button.btn Пробная кнопка
+
